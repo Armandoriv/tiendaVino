@@ -1,0 +1,49 @@
+.footer{
+    width: 100%;
+    text-align: right;
+    background-color: #a80000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .line{
+        width: 90%;
+        border: 1.5px solid #000000;
+    }
+    .footer-tarjetas{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        img{
+            width: 50px;
+            border-radius: 5px;
+        }
+    }
+    .footer-text{
+        width: 90%;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    .copy{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        padding: 10px 0px 20px 0px;
+        color: #000000;
+        .footerDisen{
+            margin-right: 50px;
+            a{
+            font-size: 1.5rem;
+            font-family: Pablo;
+            text-decoration: none;
+            color: inherit;
+            }
+        }
+    }
+}
